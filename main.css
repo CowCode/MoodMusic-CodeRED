@@ -52,29 +52,37 @@ h1
     background: white;
     margin-left: -10px;
     margin-right: -10px;
+
     top: 90px;
 }
 .formyo
 {
 	position: absolute;
 	margin: auto;
+	vertical-align: middle;
 }
 #quoteSectn
 {
 	border-radius: 25px;
-	color: black;
-	background: #ffde6a; /*#8d0c11*/
- 	margin: auto;
-    border: 2px solid black;
-    padding-left: 10px;
+	color: white;
 	text-align: left;
-	height: 200px;
-	margin: auto;
-	margin-top: 150px;
+	height: 380px;
+	margin-top: 75px;
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#text_entry
+{
 	font-family: 'Pacifico', cursive;
-	font-size: 15px;
-	font-weight: bold;
-	box-shadow: 5px 5px 5px #000101;
+	font-size: 25px;
+	color: white;
+	font-weight: normal;
+	background-image: "ChalkboardAndTray.png";
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px;
 }
 .button-0
 {
