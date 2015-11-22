@@ -25,6 +25,23 @@ footer
 	color: white;
 	text-decoration: underline;
 }
+#feelings
+{
+	position: relative;
+	padding: 0px;
+	border-radius: 5px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+    text-decoration: none;  
+    text-align: center;
+    background-color: #000000;
+    text-shadow: 0px 0px #FFFFFF;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	width: 15%;
+	vertical-align: middle;
+}
 h1
 {
 	text-align: center;
@@ -54,41 +71,6 @@ h1
     margin-right: -10px;
 
     top: 90px;
-}
-.formyo
-{
-	position: absolute;
-	margin: auto;
-	vertical-align: middle;
-}
-#quoteSectn
-{
-	border-radius: 25px;
-	color: white;
-	text-align: justify;
-	height: 380px;
-	margin-top: 75px;
-	width: 640px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: -20px;
-}
-#text_entry
-{
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
-	font-weight: normal;
-	color: white;
-	background-image: url("Chalkboard.png");
-	background-size: 100% 100%;
-	border: 0px;
-	border-radius: 5px 5px 0px 0px;
-	padding: 10px;
-	box-shadow: 5px 5px 5px #000101;
-}
-.cTray
-{
-
 }
 #tray
 {
@@ -132,4 +114,9 @@ h1
     color: #ffffff;
     display: inline-block;
 }
-
+.spotify
+{
+	display: absolute;
+ 	margin: auto;
+    text-align:center;
+}
