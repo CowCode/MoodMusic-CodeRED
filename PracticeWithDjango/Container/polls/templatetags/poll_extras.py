@@ -10,14 +10,14 @@ register = template.Library()
 def combine(str1):
     temp = ''
     for i in range(len(str1)):
-        if str1[i] == ' ':
+        if str1[i] == ' ':  
             temp += '+'
         else:   
             temp += str1[i]
     r = requests.get('https://api.spotify.com/v1/search?query=' + temp + '&type=track')
     json_object = json.loads(r.text)
     spot_id = json_object["tracks"]["items"][0]["id"]
-	url = "https://embed.spotify.com/?uri=https://open.spotify.com/track/" + spot_id
-    return url 
+    return "https://embed.spotify.com/?uri=https://open.spotify.com/track/" + spot_id
+    
 
 register.filter('combine', combine)
