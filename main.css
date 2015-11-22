@@ -1,6 +1,6 @@
 body
 {
-	background-color: #2D2D2D; /*A7A9AC*/
+	background-color: #BF5700; /*A7A9AC*/
 	max-width: 100%;
 	max-height: 100%;
 	background-image: url("../Images/CorkBoard.jpg");
@@ -30,29 +30,13 @@ h1
 	text-align: center;
 	vertical-align: middle;
 	font-size: 60px;
-	color : #0000FF;
+	color: white;
 	font-family: 'Pacifico', cursive;
-	background-color: #125688;
+	background-color: black;
     margin-top: -20px;
     margin-left: -10px;
     margin-right: -10px;
-}
-#whoQ
-{
-	color: black;
-	background-color: #ffde6a;
-    border: 2px solid black;
-    padding: 5px;
-    width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: 10px;
-	box-shadow: 5px 5px 5px #000101;
-}
-#myImage, #myImage2
-{
-    box-shadow: 5px 5px 5px #000101;	
+    font-style: normal;
 }
 .content
 {
@@ -63,64 +47,49 @@ h1
 {	
 	position: absolute;
     width: 100%;
-    height: 50px;
-    border: 1px solid black;
-    background: #00AEEF;	
-    margin: auto;
-    top: 400px;
-}
-#bottomColor
-{
-	border-radius: 0px 0px 15px 15px;	
-	position: absolute;
-    width: 100%;
-    height: 400px;
-    background: #ED1C24;
-    margin: auto;
-    top: 415px;
-    box-shadow: 0px 7.5px 10px 7.5px #000101;
-}
-.trump-with-img
-{
- 	display: inline-block;
-	float: left;
- 	margin-left: auto;
- 	padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    text-align:center;
+    height: 5px;
+    border: 0px solid black;
+    background: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    top: 90px;
 }
 #quoteSectn
 {
+	border-radius: 25px;
 	color: black;
 	background: #ffde6a; /*#8d0c11*/
  	margin: auto;
     border: 2px solid black;
-    padding: 5px;
-	text-align: center;
+    padding-left: 10px;
+	text-align: left;
 	width: 30%;
+	height: 200px;
 	margin: auto;
-	margin-top: 0px;
-	font-family: 'Coming Soon', cursive;
-	font-size: 15px;
+	margin-top: 150px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
 	font-weight: bold;
 	box-shadow: 5px 5px 5px #000101;
 }
 .button-0
 {
 	position: relative;
-	padding:10px 40px;
-	border-radius: 3px;
-	color: #000000;
+	padding: 0px 0px 0px 10px;
+	border-radius: 5px;
+	color: white;
 	margin: auto;
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-top: -5px;
+	padding-bottom: -5px;
     text-decoration: none;  
-    background-color: #ffde6a;
-    border-bottom: 5px solid #ffcc1a;
-    text-shadow: 0px -2px #ffde6a;
+    background-color: #000000;
+    border-bottom: 5px solid #000000;
+    text-shadow: 0px -2px #000000;
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Pacifico', cursive;
 	font-size: 40px;
 	box-shadow: 5px 5px 5px #000101;
 }
@@ -133,18 +102,4 @@ h1
     transform: translate(0px,5px);
     -webkit-transform: translate(0px,5px);
     border-bottom: 1px solid;
-}
-#trumpstyle
-{
-	display: inline-block;
-	vertical-align: middle;
-}
-h2
-{
-	color : 000000;
-	text-align: center;
-	font-family: 'Permanent Marker', cursive;
-	margin-top: -10px;
-	margin-bottom: 0px;
-	padding: 0px;	
 }
