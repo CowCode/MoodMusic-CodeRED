@@ -58,22 +58,21 @@ h1
 {
 	position: absolute;
 	margin: auto;
+	vertical-align: middle;
 }
 #quoteSectn
 {
 	border-radius: 25px;
 	color: black;
 	background: #ffde6a; /*#8d0c11*/
- 	margin: auto;
     border: 2px solid black;
     padding-left: 10px;
 	text-align: left;
 	height: 200px;
-	margin: auto;
 	margin-top: 150px;
 	font-family: 'Pacifico', cursive;
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: normal;
 	box-shadow: 5px 5px 5px #000101;
 }
 .button-0
