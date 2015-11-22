@@ -88,7 +88,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'CST'
+#TIME_ZONE = 'CST'
 
 USE_I18N = True
 
