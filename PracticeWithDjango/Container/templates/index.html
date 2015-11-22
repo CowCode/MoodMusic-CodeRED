@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load poll_extras %}
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" media="screen" />
@@ -17,12 +18,13 @@
 		<div class="backgroundShapes">
 
 			<h1>music &agrave; la mood</h1>
-
+ 
 			<div id="divider"></div>
 
 			<form id="quoteSectn">
 				<textarea id="text_entry" rows="8" cols="47" name="entry" placeholder="Describe your day..."></textarea>
 			</form>
+			
 				
 			<div class="cTray">
 				<center><img id="tray" src="../static/polls/images/ChalkTray.png" alt="ChalkBoardTray"/></center>
