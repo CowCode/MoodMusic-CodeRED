@@ -1,0 +1,43 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" media="screen" />
+<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+<head>
+	<title>music &agrave; la mood</title>
+</head>
+
+	<body onload = "setStartingStats()"> 
+
+		<div class="backgroundShapes">
+
+			<h1>music &agrave; la mood</h1>
+
+			<div id="divider"></div>
+
+			<form id="quoteSectn">
+				<textarea id="text_entry" rows="8" cols="47" name="entry" placeholder="Describe your day..."></textarea>
+			</form>
+				
+			<div class="cTray">
+				<center><img id="tray" src="../static/polls/images/ChalkTray.png" alt="ChalkBoardTray"/></center>
+			</div>
+
+				<br>
+
+			<div class="bottomhalf">
+				<br>
+					<div class="nextBtn" align="center">
+						<a href="polls/results" class="button-0">go!</a>
+					</div>
+			</div>
+			<!-- these guys are intelligent, just kidding -->
+		</div>
+	</body>
+<footer>This website was written by "CowCode," a coding team from Austin, Texas consisting of Boris Chu, Chris Pulicken, Abhishek Routray, Arjun Talpallikar, and Joshua Yang. Access our github repository here: <a id="linky" href="http://www.github.com/cowcode">www.github.com/cowcode</a></footer>
+</html>
