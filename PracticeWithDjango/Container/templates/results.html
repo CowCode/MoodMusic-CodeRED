@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="main2.css" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/>
@@ -12,32 +12,27 @@
 	<script src="finalscript.js"></script>
 </head>
 
-	<body onload = "setStartingStats()"> 
-
-		<div class="backgroundShapes">
-
-			<h1>music &agrave; la mood</h1>
-
-			<div id="divider"></div>
-
-			<form id="quoteSectn">
-				<textarea id="text_entry" rows="8" cols="47" name="entry" placeholder="Describe your day..."></textarea>
-			</form>
+<body onload = "setStartingStats()"> 
 				
-			<div class="cTray">
-				<center><img id="tray" src="ChalkTray.png" alt="ChalkBoardTray"/></center>
-			</div>
+				<!--<audio id="colbertNo"><source src="../Audio/Final Audio Files/ColbertNo.wav" type="audio/wav"></audio>-->
 
-				<br>
+<div class="backgroundShapes">
 
-			<div class="bottomhalf">
-				<br>
-					<div class="nextBtn" align="center">
-						<a href="results.html" class="button-0">go!</a>
-					</div>
+	<h1>music &agrave; la mood</h1>
+	<div id="feelings"><p>Feeling Like Taking a Walk</p></div>
+	<div class="spotify">
+		<iframe id="spotty" src="https://embed.spotify.com/?uri=https://open.spotify.com/track/4Sfa7hdVkqlM8UW5LsSY3F" width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
+	</div>
+	<div id="divider"></div>
+
+	<div class="bottomhalf">
+		<br>
+			<div class="nextBtn" align="center">
+				<a href="index.html" class="button-0">again?</a>
 			</div>
-			<!-- these guys are intelligent, just kidding -->
-		</div>
-	</body>
+	</div>
+
+</div>
+</body>
 <footer>This website was written by "CowCode," a coding team from Austin, Texas consisting of Boris Chu, Chris Pulicken, Abhishek Routray, Arjun Talpallikar, and Joshua Yang. Access our github repository here: <a id="linky" href="http://www.github.com/cowcode">www.github.com/cowcode</a></footer>
 </html>
