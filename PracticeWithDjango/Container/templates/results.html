@@ -1,6 +1,7 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="main2.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style2.css' %}" media="screen" />
 <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/>
@@ -19,7 +20,7 @@
 <div class="backgroundShapes">
 
 	<h1>music &agrave; la mood</h1>
-	<div id="feelings"><p>Feeling Like Taking a Walk</p></div>
+	<div id="feelings"><p>Feeling blue?</p></div>
 	<div class="spotify">
 		<iframe id="spotty" src="https://embed.spotify.com/?uri=https://open.spotify.com/track/4Sfa7hdVkqlM8UW5LsSY3F" width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
 	</div>
@@ -28,7 +29,7 @@
 	<div class="bottomhalf">
 		<br>
 			<div class="nextBtn" align="center">
-				<a href="index.html" class="button-0">again?</a>
+				<a href="../" class="button-0">again?</a>
 			</div>
 	</div>
 
