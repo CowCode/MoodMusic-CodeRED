@@ -1,0 +1,161 @@
+body
+{
+	background-color: #2D2D2D; /*A7A9AC*/
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url("../Images/CorkBoard.jpg");
+}
+footer
+{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 24px;
+    background: #2D2D2D;
+    text-align: center;
+    color: white;
+    font-family: 'Share Tech Mono';
+    font-size: 14px;
+    width: 100%;
+    padding-top: 4px;
+}
+#linky
+{
+	color: white;
+	text-decoration: underline;
+}
+h1
+{
+	font-size: 60px;
+	color : #0000FF;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #ffde6a;
+    border: 2px solid black;
+    padding: 5px;
+    width: 40%;
+    margin-right: 60%;
+    box-shadow: 5px 5px 5px #000101;
+}
+#whoQ
+{
+	color: black;
+	background-color: #ffde6a;
+    border: 2px solid black;
+    padding: 5px;
+    width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px #000101;
+}
+#myImage, #myImage2
+{
+    box-shadow: 5px 5px 5px #000101;	
+}
+.content
+{
+	width: 980px;
+	margin: auto;
+}
+#topColor
+{
+	margin-top: -40px;
+	margin-left: auto;
+	margin-right: auto;
+    width: 980px;
+    height: 100px;
+    background: #125688;
+    box-shadow: 0px -7.5px 10px 7.5px #000101;
+}
+#divider
+{	
+	position: absolute;
+    width: 978px;
+    height: 50px;
+    border: 1px solid black;
+    background: #00AEEF;	
+    margin: auto;
+    top: 400px;
+}
+#bottomColor
+{
+	border-radius: 0px 0px 15px 15px;	
+	position: absolute;
+    width: 980px;
+    height: 400px;
+    background: #ED1C24;
+    margin: auto;
+    top: 415px;
+    box-shadow: 0px 7.5px 10px 7.5px #000101;
+}
+.trump-with-img
+{
+ 	display: inline-block;
+	float: left;
+ 	margin-left: auto;
+ 	padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    text-align:center;
+}
+#quoteSectn
+{
+	color: black;
+	background: #ffde6a; /*#8d0c11*/
+ 	margin: auto;
+    border: 2px solid black;
+    padding: 5px;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	margin-top: 0px;
+	font-family: 'Coming Soon', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 5px 5px 5px #000101;
+}
+.button-0
+{
+	position: relative;
+	padding:10px 40px;
+	border-radius: 3px;
+	color: #000000;
+	margin: auto;
+    text-decoration: none;  
+    background-color: #ffde6a;
+    border-bottom: 5px solid #ffcc1a;
+    text-shadow: 0px -2px #ffde6a;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	box-shadow: 5px 5px 5px #000101;
+}
+.button-0:hover, 
+.button-0:focus {
+    text-decoration: none;
+    color: #000000;
+}
+.button-0:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+#trumpstyle
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+h2
+{
+	color : 000000;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	padding: 0px;	
+}
