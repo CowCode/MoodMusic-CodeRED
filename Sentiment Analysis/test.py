@@ -13,20 +13,20 @@ sentiment = indicoio.sentiment_hq(text_input)
 print(sentiment)
 #0<SUPERSAD<.25<SAD<.45<NEUTRAL<.6<HAPPY<.8<SUPERHAPPY<1
 if sentiment < .15:
-    print("Mood: SUPERSAD")
-    print(list1[(int)(random.random()*len(list1))])
+    print("Your day was: AWFUL")
+    return(list1[(int)(random.random()*len(list1))])
 else:
     if sentiment < .35:
-        print("Mood: SAD")
-        print(list2[(int)(random.random()*len(list2))])
+        print("Your day was: BAD")
+        return(list2[(int)(random.random()*len(list2))])
     else:
         if sentiment < .65:
-            print("Mood: NEUTRAL")
-            print(list3[(int)(random.random()*len(list3))])
+            print("Your day was: OK")
+            return(list3[(int)(random.random()*len(list3))])
         else:
             if sentiment <.9:
-                print("Mood: HAPPY")
-                print(list4[(int)(random.random()*len(list4))])
+                print("Your day was: GOOD")
+                return(list4[(int)(random.random()*len(list4))])
             else:
-                print("Mood: SUPERHAPPY")
-                print(list5[(int)(random.random()*len(list5))])
+                print("Your day was: AWESOME")
+                return(list5[(int)(random.random()*len(list5))])
