@@ -7,7 +7,7 @@ print(sentiment)
 if sentiment < .15:
     print ("SUPERSAD")
 else:
-    if sentiment < .40:
+    if sentiment < .35:
         print ("SAD")
     else:
         if sentiment < .65:
