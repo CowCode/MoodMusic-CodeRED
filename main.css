@@ -65,24 +65,37 @@ h1
 {
 	border-radius: 25px;
 	color: white;
-	text-align: left;
+	text-align: justify;
 	height: 380px;
 	margin-top: 75px;
 	width: 640px;
 	margin-left: auto;
 	margin-right: auto;
-
+	margin-bottom: -20px;
 }
 #text_entry
 {
 	font-family: 'Pacifico', cursive;
 	font-size: 25px;
-	color: white;
 	font-weight: normal;
-	background-image: "ChalkboardAndTray.png";
+	color: white;
+	background-image: url("Chalkboard.png");
+	background-size: 100% 100%;
 	border: 0px;
-	border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
 	padding: 10px;
+	box-shadow: 5px 5px 5px #000101;
+}
+.cTray
+{
+
+}
+#tray
+{
+	margin-top: -60px;
+	width: 650px;
+	box-shadow: 3px 3px 3px #000101;
+	margin-left: 13px;
 }
 .button-0
 {
@@ -104,6 +117,7 @@ h1
 	font-family: 'Pacifico', cursive;
 	font-size: 40px;
 	box-shadow: 5px 5px 5px #000101;
+	display: inline;
 }
 .button-0:hover, 
 .button-0:focus {
@@ -116,4 +130,16 @@ h1
     -webkit-transform: translate(0px,5px);
     border-bottom: 1px solid black;
     color: #ffffff;
+    display: inline-block;
+}
+.spotify
+{
+	display: inline-block;
+	float: left;
+ 	margin: auto;
+ 	padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    text-align:center;
 }
