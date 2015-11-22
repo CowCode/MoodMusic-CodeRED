@@ -1,7 +1,0 @@
-sadList["Sorry", "What do you mean", "Same Old Love", "Here", "Hit The Quan", "Good For You",]
-neutralList["Focus", "Where Ya At", "Hello", "Locked Away", "Lean On", "Confident",]
-1happyList["Jumpman", "Trap Queen", "Renegades", "White Iverson", "Shut Up and Dance", "Hotline Bling",]
-2happyList["Drag Me Down", "Downtown", "Perfect", "Again", "Stitches", "679"] 
-3happyList["My Way", "Ex's & Oh's", "Antidote", "Like I'm gonna lose you", "Tennessee Whiskey", "See You Again", "Watch Me", "On My Mind", "I'll Show You",
-"Cheerleader", "The Hills", "Uptown Funk!", "Die a Happy Man", "How Deep Is Your Love", "Photograph", "Can't feel my face",]
-
