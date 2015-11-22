@@ -52,6 +52,7 @@ h1
     background: white;
     margin-left: -10px;
     margin-right: -10px;
+
     top: 90px;
 }
 .formyo
@@ -63,17 +64,25 @@ h1
 #quoteSectn
 {
 	border-radius: 25px;
-	color: black;
-	background: #ffde6a; /*#8d0c11*/
-    border: 2px solid black;
-    padding-left: 10px;
+	color: white;
 	text-align: left;
-	height: 200px;
-	margin-top: 150px;
+	height: 380px;
+	margin-top: 75px;
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#text_entry
+{
 	font-family: 'Pacifico', cursive;
-	font-size: 15px;
+	font-size: 25px;
+	color: white;
 	font-weight: normal;
-	box-shadow: 5px 5px 5px #000101;
+	background-image: "ChalkboardAndTray.png";
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px;
 }
 .button-0
 {
