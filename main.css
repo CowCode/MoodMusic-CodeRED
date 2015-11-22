@@ -77,16 +77,16 @@ h1
 	position: relative;
 	padding: 0px 0px 0px 10px;
 	border-radius: 5px;
-	color: white;
+	color: #ffffff;
 	margin: auto;
 	padding-left: 50px;
 	padding-right: 40px;
 	padding-top: -5px;
-	padding-bottom: -5px;
+	padding-bottom: 5px;
     text-decoration: none;  
     background-color: #000000;
     border-bottom: 5px solid #000000;
-    text-shadow: 0px -2px #000000;
+    text-shadow: 0px 0px #FFFFFF;
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 	font-family: 'Pacifico', cursive;
@@ -96,10 +96,12 @@ h1
 .button-0:hover, 
 .button-0:focus {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    text-shadow: 0px 0px #ffffff;
 }
 .button-0:active {
     transform: translate(0px,5px);
     -webkit-transform: translate(0px,5px);
-    border-bottom: 1px solid;
+    border-bottom: 1px solid black;
+    color: #ffffff;
 }
