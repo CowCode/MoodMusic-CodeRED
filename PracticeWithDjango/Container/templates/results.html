@@ -1,8 +1,8 @@
 {% load staticfiles %}
-{% load poll_extras %}
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style2.css' %}" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/>
@@ -19,11 +19,23 @@
 				<!--<audio id="colbertNo"><source src="../Audio/Final Audio Files/ColbertNo.wav" type="audio/wav"></audio>-->
 
 <div class="backgroundShapes">
-
+			<script>
+			function giveURL(){
+				$.ajax({
+			    url: '127.0.0.1:8000/u_rl',
+			    type: 'post', //this is the default though, you don't actually need to always mention it
+			    success: function(data) {
+			        alert(data);
+			    },
+			    failure: function(data) { 
+			        alert('Got an error dude');
+			    }
+			});}
+			</script>
 	<h1>music &agrave; la mood</h1>
 	<div id="feelings"><p>Feeling blue?</p></div>
 	<div class="spotify">
-		<iframe id="spotty" src={{combine}} width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
+		<iframe id="spotty" width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
 	</div>
 	<div id="divider"></div>
 

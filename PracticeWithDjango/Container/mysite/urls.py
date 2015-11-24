@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^$', include('polls.urls')),
     ##url(r'^result/', include('results.urls')),
+    
 ]

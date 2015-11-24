@@ -1,8 +1,8 @@
 {% load staticfiles %}
-{% load poll_extras %}
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'/>
@@ -18,7 +18,19 @@
 			<h1>music &agrave; la mood</h1>
  
 			<div id="divider"></div>
-
+			<script>
+			function getText(){
+				$.ajax({
+			    url: '127.0.0.1:8000/text',
+			    type: 'get', //this is the default though, you don't actually need to always mention it
+			    success: function(data) {
+			        alert(data);
+			    },
+			    failure: function(data) { 
+			        alert('Got an error dude');
+			    }
+			});}
+			</script>
 			<form id="quoteSectn">
 				<textarea id="text_entry" rows="8" cols="47" name="entry" placeholder="Describe your day..."></textarea>
 			</form>
@@ -32,7 +44,7 @@
 			<div class="bottomhalf">
 				<br>
 					<div class="nextBtn" align="center">
-						<a href="polls/results" class="button-0">go!</a>
+						<a href="polls/results" onclick="getText()" class="button-0">go!</a>
 					</div>
 			</div>
 			<!-- these guys are intelligent, just kidding -->
