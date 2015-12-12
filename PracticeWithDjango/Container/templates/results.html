@@ -11,7 +11,6 @@
 <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
 <head>
 	<title>music &agrave; la mood</title>
-	<script src="finalscript.js"></script>
 </head>
 
 <body onload = "setStartingStats()"> 
@@ -23,7 +22,10 @@
 	<h1>music &agrave; la mood</h1>
 	<div id="feelings"><p>Feeling blue?</p></div>
 	<div class="spotify">
-		<iframe id="spotty" src={{combine}} width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
+		<iframe id="spotty" width="340" height="340" frameborder="0" allowtransparency="true"></iframe>
+		<script>
+		document.getElementById("spotty").src = {{url}}
+		</script>
 	</div>
 	<div id="divider"></div>
 

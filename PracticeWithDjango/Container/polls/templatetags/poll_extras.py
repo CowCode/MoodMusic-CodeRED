@@ -6,6 +6,7 @@ from django.template import Template, Context
 
 register = template.Library()
 
+@register.filter
 @stringfilter
 def combine(str1):
     temp = ''
@@ -17,7 +18,5 @@ def combine(str1):
     r = requests.get('https://api.spotify.com/v1/search?query=' + temp + '&type=track')
     json_object = json.loads(r.text)
     spot_id = json_object["tracks"]["items"][0]["id"]
-    return "https://embed.spotify.com/?uri=https://open.spotify.com/track/" + spot_id
+    return "https://embed.spotify.com/?uri=spotify:track:" + spot_id
     
-
-register.filter('combine', combine)
